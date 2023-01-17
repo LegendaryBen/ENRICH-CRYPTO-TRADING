@@ -281,8 +281,94 @@ header>div:nth-child(2){
 
 .pictures{
     width:100%;height:400px;padding:10px 60px 20px 60px;display: flex;justify-content:space-between;align-items:center;
+    flex-direction:row;
 }
 
+
 .pictures .pic{
-    width:400px;height: 352px;background-color:blue;
+    height: 352px;width:400px;position:relative;border-radius:8px;
+}
+
+.pictures .pic>img{
+    width:100%;height:100%;object-fit: cover;border-radius:8px;
+}
+
+
+.pictures .pic div{
+    position: absolute;width:100%;bottom:0;display:flex;flex-direction: column;padding-left:15px;
+    padding-bottom:10px;font-family: 'Hellix';font-style: normal;z-index: 4;
+}
+
+.pictures .pic div>*{
+    margin-bottom:4px;
+}
+
+.pictures .pic div>span:first-child{
+    font-size: 22px;line-height: 26px;color: #F2F2F2;font-weight:500px;
+}
+
+.pictures .pic div>span:last-child{
+    font-weight: 500;font-size: 16px;line-height: 19px;color: #F2F2F2;
+}
+
+.linear{
+    width:100%;height:100%;position:absolute;bottom:0;z-index:2;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%);border-radius:8px;
+}
+
+footer{
+    min-height:408px;width:100%;background-color: #000000;margin-top:80px;padding-top:0;font-family: 'Hellix';
+    font-style: normal;
+}
+
+footer>div:first-child{
+    display:flex;flex-wrap:wrap;
+}
+
+footer>div:first-child div{
+    display:flex;flex-direction: column;padding:50px 50px;flex-basis:25%;
+}
+
+
+footer>div:first-child>div:first-child{
+    text-align:left;
+}
+
+footer>div:first-child>div:last-child{
+    text-align:left;
+}
+
+
+footer>div:first-child>div:nth-child(2){
+    text-align:left;
+}
+
+
+
+footer>div:first-child>div:nth-child(3){
+    text-align:left;
+}
+
+footer>div:first-child div span{
+    font-weight: 500;font-size: 20px;line-height: 24px;color:white;margin-bottom:30px;
+}
+
+
+footer>div:first-child div a{
+    text-decoration:none;margin-bottom:15px;font-weight: 400;font-size: 16px;line-height: 20px;color: #FFFFFF;
+    mix-blend-mode: normal;opacity: 0.75;
+}
+
+
+footer>div:nth-child(2){
+    font-weight: 400;font-size: 16px;line-height: 26px;color: #FFFFFF;mix-blend-mode: normal;width:100%;margin-top:30px;
+    display:flex;justify-content:center;align-items:center;height: 30px;
+}
+
+footer>div:last-child{
+    display:flex;justify-content:center;align-items: center;width:100%;margin-top:20px;
+}
+
+footer>div:last-child *{
+    margin-right: 5px;
 }
