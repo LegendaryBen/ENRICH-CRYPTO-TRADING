@@ -1096,7 +1096,7 @@ footer>div:last-child *{
     }
 
     footer{
-        padding-top:40px;
+        padding-top:15px;
     }
 
     footer>div:first-child div{
@@ -1111,12 +1111,12 @@ footer>div:last-child *{
         text-align:left;
     }
 
-    footer>div:first-child div span{
-        font-size:16px;line-height:19px;
+    footer>div:first-child div{
+        display:flex;flex-direction: column;padding:15px 30px;flex-basis:100%;
     }
-
-    footer>div:first-child div a{
-        font-size: 14px;line-height: 20px;
+    
+    footer>div:first-child div span{
+        font-weight: 500;font-size: 20px;line-height: 24px;color:white;margin-bottom:15px;
     }
 
     footer>div:nth-child(2){
