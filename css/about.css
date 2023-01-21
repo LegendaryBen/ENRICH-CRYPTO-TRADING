@@ -243,11 +243,13 @@ header>div:nth-child(2){
 }
 
 .section1>div:first-child{
-    width:100%;font-weight: 600;font-size: 64px;line-height: 77px;padding:0px 280px 0px 60px;margin-top:90px;
+    width:100%;font-weight: 600;font-size: 64px;line-height: 77px;padding:0px 280px 0px 60px;margin-top:90px;transform:translateY(350px);
+    animation: slide 2s ;animation-fill-mode: forwards;opacity:0;
 }
 
 .section1>div:last-child{
     width:100%;margin-top:20px;padding-left:60px;font-weight: 400;font-size: 22px;line-height: 26px;color: #4F4F4F;padding-right:0;
+    transform:translateY(350px);opacity:0;animation: slide 2s;animation-fill-mode: forwards;
 }
 
 .section2{
@@ -255,21 +257,23 @@ header>div:nth-child(2){
 }
 
 .section2 img{
-    width:100%;height:100%;object-fit: cover;
+    width:100%;height:100%;object-fit: cover;transform:translateY(500px);opacity:0;animation: slide2 2s;animation-fill-mode: forwards;
 }
 
 .section3{
     margin-top:70px;font-family: 'Hellix';font-style: normal;width:100%;height:400px;background-color:white;
+    overflow: hidden;
 }
 
 .section3>div:first-child{
     font-weight: 600;font-size: 36px;line-height: 43px;color:#000000;padding-left:60px;padding-top:10px;padding-bottom:20px;
-    padding-right:0;
+    padding-right:0;transform:translateY(700px);transition:2s;
 
 }
 
 .section3>div:last-child{
-    font-weight: 400;font-size: 18px;line-height: 26px;color: #4F4F4F;padding:10px 80px 0px 60px;
+    font-weight: 400;font-size: 18px;line-height: 26px;color: #4F4F4F;padding:10px 80px 0px 60px;transform:translateY(700px);
+    transition:2s;
 }
 
 .section4{
@@ -277,12 +281,13 @@ header>div:nth-child(2){
 }
 
 .section4>div:first-child{
-    font-weight: 600;font-size: 36px;line-height: 43px;color:#000000;padding-left:60px;padding-top:10px;padding-bottom:20px
+    font-weight: 600;font-size: 36px;line-height: 43px;color:#000000;padding-left:60px;padding-top:10px;padding-bottom:20px;
+    transform:translateY(300%);opacity:0;transition:0.5s;
 }
 
 .pictures{
     width:100%;height:400px;padding:10px 60px 20px 60px;display: flex;justify-content:space-between;align-items:center;
-    flex-direction:row;flex-wrap: wrap;
+    flex-direction:row;flex-wrap: wrap;transform:translateY(300%);opacity:0;transition:0.5;
 }
 
 
@@ -512,7 +517,7 @@ footer>div:last-child *{
     }
     
     .section3>div:last-child{
-        font-size: 15px;
+        font-size: 15px;padding:10px 60px 0px 60px;
     }
 
     .section4>div:first-child{
@@ -606,15 +611,15 @@ footer>div:last-child *{
     }
     
     .section3>div:last-child{
-        font-size: 16px;padding-left:30px;line-height:19px;
+        font-size: 16px;line-height:19px;padding:10px 30px 10px 30px;
     }
 
     .section3{
-        height:740px;margin-top:30px;
+        height:630px;margin-top:30px;
     }
 
     .section4>div:first-child{
-        font-size:22px;line-height:26px;padding-left:30px;padding-top:60px;
+        font-size:22px;line-height:26px;padding-left:30px;padding-top:30px;
     }
 
     .pictures .pic{
@@ -626,7 +631,7 @@ footer>div:last-child *{
     }
 
     .section4{
-        height:2100px;
+        height:2130px;
     }
 
     footer{
@@ -634,7 +639,7 @@ footer>div:last-child *{
     }
 
     footer>div:first-child div{
-        display:flex;flex-direction: column;padding:15px 30px;flex-basis:100%;
+        display:flex;flex-direction: column;padding:20px 30px;flex-basis:100%;
     }
     
     footer>div:first-child div span{
@@ -646,14 +651,19 @@ footer>div:last-child *{
 
 @media only screen and (max-width:376px){
     .section3{
-        height:880px;margin-top:30px;
+        height:680px;margin-top:30px;
     }
+
+    .section4>div:first-child{
+        padding-top:50px;
+    }
+
 }
 
 
 @media only screen and (max-width:320px){
     .section3{
-        height:1110px;margin-top:30px;
+        height:680px;margin-top:30px;
     }
 
     .section1{
@@ -661,4 +671,25 @@ footer>div:last-child *{
     }
 
    
+}
+
+@keyframes slide {
+    0%{
+        opacity:0;transform:translateY(350px);
+    }
+
+    100%{
+        opacity:1;transform:translateY(0%);
+    }
+}
+
+
+@keyframes slide2 {
+    0%{
+        opacity:0;transform:translateY(370px);
+    }
+
+    100%{
+        opacity:1;transform:translateY(0%);
+    }
 }

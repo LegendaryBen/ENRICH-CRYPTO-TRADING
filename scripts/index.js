@@ -200,17 +200,17 @@ function showDrops(){
     let check = this.getAttribute("dropped");
     if(check == "false"){
         let count = 0
-        let children = Array.from(this.parentNode.parentNode.parentNode.children);
+        let children = Array.from(this.parentNode.children);
         for(let height of children){
             count += height.offsetHeight;
         }
-        this.parentNode.parentNode.parentNode.style.height = 50 + count + "px";
-        this.style.transform = "rotate(180deg)";
+        this.parentNode.style.height = 50 + count + "px";
+        this.children[1].children[0].style.transform = "rotate(180deg)";
         this.removeAttribute("dropped");
         this.setAttribute("dropped","true");
     }else{
-        this.parentNode.parentNode.parentNode.style.height ="60px";
-        this.style.transform = "rotate(0deg)";
+        this.parentNode.style.height ="60px";
+        this.children[1].children[0].style.transform = "rotate(0deg)";
         this.removeAttribute("dropped");
         this.setAttribute("dropped","false");
     }
