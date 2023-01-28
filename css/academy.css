@@ -208,11 +208,11 @@ header>div:last-child{
 }
 
 .ham{
-    width:32px;height:23px;display:none;
+    width:32px;height:23px;display:none;object-fit:cover;
 }
 
 .ham2{
-    width:32px;height:23px;display:none;object-fit:contain;
+    width:32px;height:23px;display:none;object-fit:cover;
 }
 
 header>div:nth-child(2){
@@ -245,7 +245,7 @@ header>div:nth-child(2){
 }
 
 .section1{
-    width:100%;height:690px;position:relative;
+    width:100%;height:614px;position:relative;
 }
 
 video{
@@ -254,11 +254,11 @@ video{
 
 .back{
     background-image:linear-gradient(0.71deg, #0C0C0C 0.57%, rgba(63, 63, 63, 0) 197.33%) ;
-    width:100%;height:614px;position:absolute;top:0;left:0;right:0;
+    width:100%;height: 625px;position:absolute;top:0;left:0;right:0;
 }
 
 .write{
-    background:transparent;width:100%;height:614px;position:absolute;top:0;left:0;right:0;color:white;
+    background:transparent;width:100%;height:618px;position:absolute;top:0;left:0;right:0;color:white;
 }
 
 .write>div{
@@ -267,7 +267,7 @@ video{
 
 .write>div>div{
     width:100%;position:absolute;bottom:130px;display:flex;flex-direction:column;padding-left:60px;font-family: 'Hellix';
-    font-style: normal;
+    font-style: normal;padding-right:0;
 }
 
 .write>div>div>span:first-child{
@@ -280,7 +280,7 @@ video{
 
 .section2{
     width:100%;height:300px;background-color: #0C0C0C;color:white;padding-left:60px;font-family: 'Hellix';
-    font-style: normal;
+    font-style: normal;padding-right:60px;
 }
 
 .section2>div:first-child{
@@ -298,17 +298,18 @@ video{
 form{
     width:845px;height:90px;background-color:transparent;display:flex;justify-content: space-between;align-items:center;
     margin-top:40px;border:1px solid rgba(189, 189, 189,0.5);padding:10px;border-radius:4px;font-family: 'Hellix';
-    font-style: normal;
+    font-style: normal;margin-bottom:0;
 }
 
 form .submit{
     padding: 10px;gap: 10px;width: 200px;height: 72px;background: #F2F2F2;border-radius: 4px;
-    outline:none;font-weight: 600;font-size: 24px;line-height: 29px;color: #333333;
+    outline:none;font-weight: 600;font-size: 24px;line-height: 29px;color: #333333;border:none;
 }
 
 form .email{
     padding: 10px;gap: 10px;width: 400px;height: 72px;background:transparent;border-radius: 4px;
     outline:none;border:1px solid transparent;font-weight: 100;font-size: 22px;line-height: 26px;color: #BDBDBD;
+    margin-bottom:0;
 }
 
 footer{
@@ -436,3 +437,194 @@ footer>div:last-child *{
     align-items:center;
 }
 
+@media only screen and (max-width:769px){
+    .third{
+        display:none;
+    }
+
+    .ham{
+        display:block;
+    }
+
+    form{
+        width:600px;height:60px;
+    }
+
+    form .submit{
+        padding: 10px;gap:10px;width: 150px;height:40px;font-weight: 600;font-size:18px;line-height:22px
+    }
+
+    form .email{
+        padding: 10px;gap: 10px;width:350px;height:40px;background:transparent;border-radius: 4px;
+        outline:none;border:1px solid transparent;font-weight: 100;font-size:18px;line-height: 22px;color: #BDBDBD;
+    }
+
+    .write>div>div>span:first-child{
+        font-size:50px;line-height: 57px;
+    }
+    
+    .write>div>div>span:last-child{
+        font-size:20px;line-height: 22px;
+    }
+
+    .write>div>div{
+        position:absolute;bottom:100px;padding-right:30px;
+    }
+
+    .section1{
+        height:500px;
+    }
+    
+    video{
+        height:500px;
+    }
+    
+    .back{
+        height:500px;
+    }
+
+    .write{
+        height:500px;
+    }
+    
+    .section2{
+        width:100%;height:250px;
+    }
+    
+    .section2>div:first-child>span:first-child{
+        font-size:20px;line-height: 22px;
+    }
+    
+    .section2>div:first-child>span:last-child{
+        font-size:19px;line-height: 22px;
+    }
+    
+}
+
+
+@media only screen and (max-width:427px){
+    .ham{
+        display:none;
+    }
+
+    .ham2{
+        display:block;
+    }
+
+    header{
+        padding:15px 30px 15px 30px;
+    }
+
+    header>div:nth-child(2){
+        display:none;
+    }
+
+    .write>div>div{
+        padding-left:30px;padding-right:30px;
+    }
+
+    .write>div>div>span:first-child{
+        font-size: 36px;line-height:43px;
+    }
+
+    .write>div>div>span:last-child{
+        font-size: 16px;line-height: 19px;
+    }
+
+    .section1{
+        height:380px;
+    }
+
+    .section2{
+        height:300px;
+    }
+
+    .section2>div:first-child>span:first-child{
+        font-size: 16px;line-height: 19px;
+    }
+    
+    .section2>div:first-child>span:last-child{
+        font-size: 16px;line-height: 19px;
+    }
+    
+    video{
+        height:380px;
+    }
+    
+    .back{
+        height:380px;
+    }
+
+    .write{
+        height:380px;
+    }
+
+    .write>div>div{
+        bottom:50px;
+    }
+
+    .section2{
+        padding-left:30px;
+    }
+
+
+    form{
+        width:365px;height:90px;flex-direction: column;border:none;margin-top:28px;
+    }
+
+    form .submit{
+        padding: 10px;gap:10px;width: 365px;height:60px;font-size:16px;line-height:19px
+    }
+
+    form .email{
+        padding: 10px;gap: 10px;width:365px;height:54px;background:transparent;border-radius: 4px;
+        border:1px solid  rgba(189, 189, 189,0.5);font-size:16px;line-height:19px;margin-bottom:15px;
+    }
+
+    footer{
+        margin-top:0px;padding-top:20px;
+    }
+
+    footer>div:first-child div{
+        display:flex;flex-direction: column;padding:20px 30px;flex-basis:100%;
+    }
+    
+    footer>div:first-child div span{
+        font-weight: 500;font-size: 20px;line-height: 24px;color:white;margin-bottom:15px;
+    }
+
+}
+
+
+@media only screen and (max-width:377px){
+
+    form{
+        width:295px;
+    }
+
+    form .submit{
+        width: 295px;
+    }
+
+    form .email{
+        width:295px;
+    }
+
+}
+
+
+@media only screen and (max-width:320px){
+
+    form{
+        width:260px;
+    }
+
+    form .submit{
+        width:260px;
+    }
+
+    form .email{
+        width:260px;
+    }
+
+}
