@@ -828,7 +828,7 @@ footer>div:last-child *{
     }
 
     .section1>section:first-child>div:first-child{
-        color:#000000;font-weight: 600;font-size: 35px;line-height:50px;padding-top:80px;padding-left:40px;
+        color:#000000;font-weight: 600;font-size: 45px;line-height:50px;padding-top:80px;padding-left:40px;padding-right:40px;
     }
 
     .section1>section:first-child>div:nth-child(2){
