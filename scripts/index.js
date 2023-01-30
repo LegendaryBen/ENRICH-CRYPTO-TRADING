@@ -29,7 +29,7 @@ let ham2 = query(".ham2");
 let section3 = query(".section3");
 let sec3Children = queryAll(".section3>div");
 let section4 = query(".section4");
-let section4Child = query(".section4>div");
+let section4Child = query(".section4>a");
 let vidContainer = query(".section5>div>div:first-child")
 let playParent = query(".playParent");
 let video = query(".video");
@@ -44,6 +44,9 @@ let drops = queryAll(".drop");
 let section11 = query(".section11");
 let sec11Children = queryAll(".section11>div");
 let checkTrans = 2.5;
+let section8 = query(".section8");
+
+
 
 
 function activateDrops(){
@@ -216,6 +219,124 @@ function showDrops(){
     }
 }
 
+async function getPrices(){
+    let res = await fetch("https://api.coingecko.com/api/v3/simple/price?ids=bitcoin%2Cethereum%2Csolana%2CRipple%2Cdogecoin%2Cbinancecoin&vs_currencies=ngn&include_market_cap=true&include_24hr_change=true&include_last_updated_at=true");
+    let result = await res.json();
+    let str = `     
+    <div>
+        <div class="sec">Name</div>
+        <div class="sec">Last Price</div>
+        <div class="sec show">24hr Change</div>
+        <div class="sec show">Market Cap</div>
+    </div>
+    <div>
+        <div class="coins logo">
+            <img src="images/bitcoin.png" alt="">
+            <div class="name">Bitcoin</div>
+            <div class="symbol">BTC</div>
+        </div>
+        <div class="coins">
+            NGN ${result.bitcoin.ngn}
+        </div>
+        <div class="coins show  ${result.bitcoin.ngn_24h_change < 0 ? 'red' : 'green'}">${result.bitcoin.ngn_24h_change}</div>
+        <div class="coins show">${result.bitcoin.ngn_market_cap}</div>
+    </div>
+    <div>
+        <div class="coins logo">
+            <img src="images/ethereum.png" alt="">
+            <div class="name">Ethereum</div>
+            <div class="symbol">ETH</div>
+        </div>
+        <div class="coins">
+            NGN ${result.ethereum.ngn}
+        </div>
+        <div class="coins show ${result.ethereum.ngn_24h_change < 0 ? 'red' : 'green'}">${result.ethereum.ngn_24h_change}</div>
+        <div class="coins show">${result.ethereum.ngn_market_cap}</div>
+    </div>
+    <div>
+        <div class="coins logo">
+            <img src="images/bnb.png" alt="">
+            <div class="name">Binance</div>
+            <div class="symbol">BNB</div>
+        </div>
+        <div class="coins">
+            NGN ${result.binancecoin.ngn}
+        </div>
+        <div class="coins show ${result.binancecoin.ngn_24h_change < 0 ? 'red' : 'green'}">${result.binancecoin.ngn_24h_change}</div>
+        <div class="coins show">${result.binancecoin.ngn_market_cap}</div>
+    </div>
+    <div>
+        <div class="coins logo">
+            <img src="images/solana.png" alt="">
+            <div class="name">Solana</div>
+            <div class="symbol">SOL</div>
+        </div>
+        <div class="coins">
+            NGN ${result.solana.ngn}
+        </div>
+        <div class="coins show ${result.solana.ngn_24h_change < 0 ? 'red' : 'green'}">${result.solana.ngn_24h_change}</div>
+        <div class="coins show">${result.solana.ngn_market_cap}</div>
+    </div>
+    <div>
+        <div class="coins logo">
+            <img src="images/xrp.png" alt="">
+            <div class="name">Ripple</div>
+            <div class="symbol">XRP</div>
+        </div>
+        <div class="coins">
+            NGN ${result.ripple.ngn}
+        </div>
+        <div class="coins show ${result.ripple.ngn_24h_change < 0 ? 'red' : 'green'}">${result.ripple.ngn_24h_change}</div>
+        <div class="coins show">${result.ripple.ngn_market_cap}</div>
+    </div>
+    <div style="border-bottom-color:rgba(79, 79, 79,0.3);">
+        <div class="coins logo">
+            <img src="images/dodge.png" alt="">
+            <div class="name">Dogecoin</div>
+            <div class="symbol">DOGE</div>
+        </div>
+        <div class="coins">
+            NGN ${result.dogecoin.ngn}
+        </div>
+        <div class="coins show ${result.dogecoin.ngn_24h_change < 0 ? 'red' : 'green'}">${result.dogecoin.ngn_24h_change}</div>
+        <div class="coins show">${result.dogecoin.ngn_market_cap}</div>
+    </div>
+
+    `
+    section8.innerHTML = str;
+}
+
+
+function loadImages(){
+    let image1 = query(".image1");
+    image1.src ="images/Vector.jpg";
+    let image2 = query(".image2");
+    image2.src="images/navmsg.png";
+    let image3 = query(".image3");
+    image3.src="images/whatsapp.png";
+    let image4 = query(".image4");
+    image4.src = "images/navphone.png";
+    let image5 = query(".image5");
+    image5.src = "images/Vector.jpg";
+    let image6 = query(".image6");
+    image6.src="images/ham.png";
+    let image7 = query(".image7");
+    image7.src="images/ham.png";
+    let image8 = query(".image8");
+    image8.src="images/msg.jpg";
+    let image9 = query(".image9");
+    image9.src="images/flame.jpg";
+    let image10 = query(".image10");
+    image10.src="images/lite.jpg";
+    video.src="video/erc.mp4";
+    playButton.src="images/play.png";
+    let image11 = query(".image11");
+    image11.src="images/Enrich-Advert.png";
+}
+
+
+
+
 
 listener(ham2,"click",goUp2);
 listener(cancel,"click",goUp);
@@ -228,3 +349,5 @@ listener(playButton,"click",playVideo);
 listener(video,"timeupdate",showLoaded);
 listener(loadContainer,"click",updateLoad)
 activateDrops();
+loadImages();
+getPrices();

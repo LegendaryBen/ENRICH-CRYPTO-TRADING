@@ -49,8 +49,24 @@ function goUp2(){
 
 }
 
-function scrollUp(){
-    let scrollValue = window.scrollY;
+function loadImages(){
+    let image1 = query(".image1");
+    image1.src="images/Vector.jpg";
+    let image2 = query(".image2");
+    image2.src="images/navmsg.png";
+    let image3 = query(".image3");
+    image3.src="images/whatsapp.png";
+    let image4 = query(".image4");
+    image4.src="images/navphone.png";
+    let image5 = query(".image5");
+    image5.src="images/log.svg";
+    let video = query(".video1");
+    video.src="video/background.mp4";
+    video.autoplay = true;
+    video.muted = true;
+    video.loop = true;
+    let video2 = query(".video");
+    video2.style.backgroundImage = "url('../images/Background\ video.gif')";
 }
 
 
@@ -59,3 +75,4 @@ listener(contact2,"click",dropDown1);
 listener(ham,"click",dropDown1);
 listener(cancel1,"click",goUp);
 listener(ham2,"click",goUp2);
+loadImages();

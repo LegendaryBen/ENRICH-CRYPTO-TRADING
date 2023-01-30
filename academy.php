@@ -13,32 +13,32 @@
         <div>
             <div class="head">
                 <div>
-                    <img src="images/Vector.jpg" alt="">
+                    <img alt="" class="image1">
                     <span>enrich</span>
                 </div>
                 <div class="cancel"><span>&#10005;</span></div>
             </div>
             <div class="sections">
-                <img src="images/navmsg.png" alt="">
-                <a href="">Email</a>
+                <img alt="" class="image2">
+                <a href="mailto:Richard.chukwuezi20@gmail.com">Email</a>
             </div>
             <div class="sections">
-                <img src="images/whatsapp.png" alt="">
-                <a href="">Whatsapp</a>
+                <img alt="" class="image3">
+                <a href="https://wa.me/2347061083954">Whatsapp</a>
             </div>
             <div class="sections">
-                <img src="images/navphone.png" alt="">
-                <a href="">Call Phone</a>
+                <img alt="" class="image4">
+                <a href="tel:07061083954">Call Phone</a>
             </div>
         </div>
     </div>
     <div class="hammenu2">
         <div>
             <div class="sections2 shift">
-                <a style="color: #B01219;text-decoration: underline;transition:1s;">About Us</a>
+                <a href="about.php">About Us</a>
             </div>
             <div class="sections2">
-                <a href="">Academy</a>
+                <a  style="color: #B01219;text-decoration: underline;transition:1s;">Academy</a>
             </div>
             <div class="newcontact">
                 <div class="hover change">Contact Us</div>
@@ -47,12 +47,12 @@
     </div>
     <header>
         <div class="first">
-           <img src="images/Log.svg" alt="enrich">
-           <span><a href="index.html">enrich</a></span>
+           <img alt="enrich" class="image5">
+           <span><a href="index.php">enrich</a></span>
         </div>
         <div class="second">
             <a style="color: #B01219;text-decoration: underline;transition:1s;">Academy</a>
-            <a href="#">About Us</a>
+            <a href="about.php">About Us</a>
         </div>
         <div>
             <div class="third hover">Contact Us</div>
@@ -61,7 +61,7 @@
         </div>
     </header>
     <div class="scetion1">
-        <video autoplay muted loop src="video/background.mp4" ></video>
+        <video class="video1"></video>
         <div class="video"></div>
         <div class="back"></div>
         <div class="write">
@@ -89,21 +89,21 @@
         <div>
             <div class="flast">
                 <span>General</span>
-                <a href="">Trade now</a>
-                <a href="">Contact us </a>
-                <a href="">Rates</a>
+                <a href="https://wa.me/2347061083954">Trade now</a>
+                <a href="https://wa.me/2347061083954">Contact us </a>
+                <a href="https://wa.me/2347061083954">Rates</a>
             </div>
             <div class="slast">
                 <span>Learning</span>
-                <a href="">Academy</a>
+                <a>Academy</a>
             </div>
             <div class="slast">
                 <span>About Us</span>
-                <a href="">About Us</a>
-                <a href="">Email</a>
-                <a href=""> Whatsapp</a>
-                <a href="">Instagram</a>
-                <a href="">Call Phone</a>
+                <a href="about.php">About Us</a>
+                <a href="mailto:Richard.chukwuezi20@gmail.com">Email</a>
+                <a href="https://wa.me/2347061083954"> Whatsapp</a>
+                <a href="https://instagram.com/enrichcryptotrading?igshid=YmMyMTA2M2Y=">Instagram</a>
+                <a href="tel:07061083954">Call Phone</a>
             </div>
             <div class="slast">
                 <span class="place"><img src="images/foot.svg">enrich</span>

@@ -253,7 +253,7 @@ video{
 }
 
 .video{
-    height:514px;display:none;background-image:url("../images/Background\ video.gif");position:absolute;top:0;left:0;right:0;
+    height:514px;display:none;position:absolute;top:0;left:0;right:0;
     background-size: cover;background-repeat: no-repeat;
 }
 
@@ -311,7 +311,11 @@ form{
 
 form .submit{
     padding: 10px;gap: 10px;width: 200px;height: 72px;background: #F2F2F2;border-radius: 4px;
-    outline:none;font-weight: 600;font-size: 24px;line-height: 29px;color: #333333;border:none;
+    outline:none;font-weight: 600;font-size: 24px;line-height: 29px;color: #333333;border:none;transition:300ms;
+}
+
+form .submit:hover{
+    background-color:rgba(242, 242, 242,0.5);
 }
 
 form .email{
@@ -330,7 +334,7 @@ footer>div:first-child{
 }
 
 footer>div:first-child div{
-    display:flex;flex-direction: column;padding:50px 50px;flex-basis:25%;
+    display:flex;flex-direction: column;padding:50px 50px;flex-basis:15%;flex-grow:1;
 }
 
 
@@ -519,6 +523,11 @@ footer>div:last-child *{
     .section2>div:first-child>span:last-child{
         font-size:19px;line-height: 22px;
     }
+
+    footer>div:first-child div{
+        display:flex;flex-direction: column;padding:30px 30px;flex-basis:15%;
+    }
+
     
 }
 

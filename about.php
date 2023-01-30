@@ -13,22 +13,22 @@
         <div>
             <div class="head">
                 <div>
-                    <img src="images/Vector.jpg" alt="">
+                    <img alt="" src="images/Vector.jpg" >
                     <span>enrich</span>
                 </div>
                 <div class="cancel"><span>&#10005;</span></div>
             </div>
             <div class="sections">
-                <img src="images/navmsg.png" alt="">
-                <a href="">Email</a>
+                <img alt="" src="images/navmsg.png">
+                <a href="mailto:Richard.chukwuezi20@gmail.com">Email</a>
             </div>
             <div class="sections">
-                <img src="images/whatsapp.png" alt="">
-                <a href="">Whatsapp</a>
+                <img  alt="" src="images/whatsapp.png">
+                <a href="https://wa.me/2347061083954">Whatsapp</a>
             </div>
             <div class="sections">
-                <img src="images/navphone.png" alt="">
-                <a href="">Call Phone</a>
+                <img  alt="" src="images/navphone.png">
+                <a href="tel:07061083954">Call Phone</a>
             </div>
         </div>
     </div>
@@ -38,7 +38,7 @@
                 <a style="color: #B01219;text-decoration: underline;transition:1s;">About Us</a>
             </div>
             <div class="sections2">
-                <a href="">Academy</a>
+                <a href="academy.php">Academy</a>
             </div>
             <div class="newcontact">
                 <div class="hover">Contact Us</div>
@@ -47,16 +47,16 @@
     </div>
     <header>
         <div class="first">
-           <img src="images/Vector.jpg" alt="enrich">
-           <span><a href="index.html">enrich</a></span>
+           <img alt="enrich" src="images/Vector.jpg">
+           <span><a href="index.php">enrich</a></span>
         </div>
         <div class="second">
-            <a href="#" >Academy</a>
+            <a href="academy.php" >Academy</a>
             <a style="color: #B01219;text-decoration: underline;transition:1s;">About Us</a>
         </div>
         <div>
             <div class="third hover">Contact Us</div>
-            <img class="ham"  src="images/ham.png" alt="">
+            <img class="ham" src="images/ham.png" alt="">
             <img class="ham2"  src="images/ham.png" alt="">
         </div>
     </header>
@@ -69,11 +69,11 @@
         </div>
     </div>
     <div class="section2">
-        <img src="images/bit-image.png" alt="">
+        <img  alt="" src="images/bit-image.png">
     </div>
     <div class="section3">
         <div>About Us</div>
-        <div>
+        <div> 
             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
             Provident, totam, commodi ipsa, asperiores itaque harum consequatur quaerat magni amet tempore quae inventore odit nam est hic accusamus sint repellat repudiandaeLorem ipsum dolor sit amet consectetur adipisicing elit. Expedita adipisci dolor
             id aliquam amet unde cumque est placeat et eaque cupiditate ut, molestias quisquanesciunt a aliquid voluptate impedit facere?
@@ -146,21 +146,21 @@
         <div>
             <div class="flast">
                 <span>General</span>
-                <a href="">Trade now</a>
-                <a href="">Contact us </a>
-                <a href="">Rates</a>
+                <a href="https://wa.me/2347061083954">Trade now</a>
+                <a href="https://wa.me/2347061083954">Contact us </a>
+                <a href="https://wa.me/2347061083954">Rates</a>
             </div>
             <div class="slast">
                 <span>Learning</span>
-                <a href="">Academy</a>
+                <a href="academy.php">Academy</a>
             </div>
             <div class="slast">
                 <span>About Us</span>
-                <a href="">About Us</a>
-                <a href="">Email</a>
-                <a href=""> Whatsapp</a>
-                <a href="">Instagram</a>
-                <a href="">Call Phone</a>
+                <a>About Us</a>
+                <a href="mailto:Richard.chukwuezi20@gmail.com">Email</a>
+                <a href="https://wa.me/2347061083954"> Whatsapp</a>
+                <a href="https://instagram.com/enrichcryptotrading?igshid=YmMyMTA2M2Y=">Instagram</a>
+                <a href="tel:07061083954">Call Phone</a>
             </div>
             <div class="slast">
                 <span class="place"><img src="images/foot.svg">enrich</span>

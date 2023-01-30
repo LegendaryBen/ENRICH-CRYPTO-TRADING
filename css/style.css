@@ -264,6 +264,10 @@ header>div:nth-child(2){
     padding: 20px;border-radius:4px;
 }
 
+.section1>section:first-child>div:nth-child(3) a{
+    color:white;text-decoration:none;
+}
+
 .section1>section:first-child>div:nth-child(3):hover{
     background-color: #FEA62C;transition:300ms;
 }
@@ -336,10 +340,10 @@ header>div:nth-child(2){
     width:100%;display:flex;justify-content:center;align-items:center;margin-top:70px;overflow:hidden;height:120px;
 }
 
-.section4 div{
+.section4 a{
     display: flex;flex-direction: row;justify-content: center;align-items: center;padding: 10px;gap: 10px;background: #B01219;
-    border-radius: 4px;width: 260px;height: 72px;font-family: 'Hellix';font-style: normal;font-weight: 600;font-size: 24px;
-    line-height: 29px;color: #FFFFFF;transition:1.5s;transform:translateY(100%);
+    border-radius: 4px;width: 220px;height: 72px;font-family: 'Hellix';font-style: normal;font-weight: 600;font-size: 24px;
+    line-height: 29px;color: #FFFFFF;transition:1.5s;transform:translateY(100%);text-decoration:none;
 }
 
 
@@ -545,7 +549,7 @@ footer>div:first-child{
 }
 
 footer>div:first-child div{
-    display:flex;flex-direction: column;padding:50px 50px;flex-basis:25%;
+    display:flex;flex-direction: column;padding:50px 50px;flex-basis:15%;flex-grow:1;
 }
 
 
@@ -735,7 +739,7 @@ footer>div:last-child *{
         font-size: 22px;
     }
 
-    .section4 div{
+    .section4 a{
         font-size:22px;
     }
     
@@ -861,7 +865,7 @@ footer>div:last-child *{
         font-size: 18px;
     }
 
-    .section4 div{
+    .section4 a{
         font-size:22px;width:240px;padding:18px;
     }
 
@@ -923,6 +927,10 @@ footer>div:last-child *{
 
     .section8{
         overflow:scroll;
+    }
+
+    footer>div:first-child div{
+        display:flex;flex-direction: column;padding:30px 30px;flex-basis:15%;
     }
 
 
@@ -1031,7 +1039,7 @@ footer>div:last-child *{
         margin-top:40px;
     }
 
-    .section4 div{
+    .section4 a{
         width: 170px;height: 54px;padding:10px;
     }
 

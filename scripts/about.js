@@ -9,6 +9,7 @@ function queryAll(a){
 function listener(element,eventType,callback){
     return element.addEventListener(eventType,callback)
 }
+
 let control = 0;
 let controlTransitions = 0;
 let section3 = query(".section3");
@@ -22,6 +23,7 @@ let ham = query(".hammenu2");
 let contact = query(".third");
 let cancelHam1 = query(".cancel");
 let hover = query(".hover");
+
 
 function scrollAnimate(){
     let scrollVAlue = window.scrollY;
@@ -90,12 +92,15 @@ function goUp2(){
 }
 
 
+
+
 listener(window,"scroll",scrollAnimate);
 listener(contact,"click",dropDown1);
 listener(ham2,"click",dropDown1);
 listener(hover,"click",dropDown1);
 listener(cancelHam1,"click",goUp);
 listener(ham3,"click",goUp2);
+
 
 
 

@@ -336,7 +336,7 @@ footer>div:first-child{
 }
 
 footer>div:first-child div{
-    display:flex;flex-direction: column;padding:50px 50px;flex-basis:25%;
+    display:flex;flex-direction: column;padding:50px 50px;flex-basis:15%;flex-grow:1;
 }
 
 
@@ -547,6 +547,11 @@ footer>div:last-child *{
     .pictures .pic div>span:last-child{
         font-weight: 500;font-size: 12px;line-height: 19px;color: #F2F2F2;
     }
+
+    footer>div:first-child div{
+        display:flex;flex-direction: column;padding:30px 30px;flex-basis:15%;
+    }
+
 }
 
 @media only screen and (max-width:427px){
