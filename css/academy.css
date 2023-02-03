@@ -219,8 +219,12 @@ header>div:nth-child(2){
     display:flex;justify-content: center;align-items:center;
 }
 
+.first{
+    display:flex;align-items:center;
+}
+
 .first span{
-    font-size:24px;font-weight:500;line-height:29px;font-style: normal;color:white;
+    font-size:24px;font-weight:500;line-height:29px;font-style: normal;color:white;padding-bottom:5px;
 }
 
 .first a{
@@ -286,7 +290,7 @@ video{
 
 .section2{
     width:100%;height:300px;background-color: #0C0C0C;color:white;padding-left:60px;font-family: 'Hellix';
-    font-style: normal;padding-right:60px;overflow: hidden;
+    font-style: normal;padding-right:60px;overflow: hidden;margin-top:0;
 }
 
 .section2>div:first-child{
@@ -321,7 +325,7 @@ form .submit:hover{
 form .email{
     padding: 10px;gap: 10px;width: 400px;height: 72px;background:transparent;border-radius: 4px;
     outline:none;border:1px solid transparent;font-weight: 100;font-size: 22px;line-height: 26px;color: #BDBDBD;
-    margin-bottom:0;
+    margin-bottom:0; 
 }
 
 footer{
@@ -581,7 +585,7 @@ footer>div:last-child *{
     }
 
     .section2{
-        height:300px;
+        height:300px;margin-top:60px;
     }
 
     .section2>div:first-child>span:first-child{
@@ -623,7 +627,7 @@ footer>div:last-child *{
     }
 
     form .submit{
-        padding: 10px;gap:10px;width: 365px;height:60px;font-size:16px;line-height:19px
+        padding:20px 30px 20px 30px;gap:0px;width: 365px;height:54px;font-size:16px;line-height:19px
     }
 
     form .email{

@@ -72,11 +72,13 @@ function playVideo(e){
         video.play();
         e.stopPropagation();
         control3 = 1;
+        playButton.src = "images/Pause.svg";
         setTimeout(show,2000);
     }else{
         video.pause();
         e.stopPropagation();
         control3 = 0;
+        playButton.src = "images/play.png";
         setTimeout(show,0);
     }
 }

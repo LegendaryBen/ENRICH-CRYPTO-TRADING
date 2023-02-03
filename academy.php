@@ -78,11 +78,11 @@
             <span>We're currently organizing the next cohort</span>
             <span>Please give us your email or phone number so we can contact you once we are done</span>
         </div>
-        <form>
+        <form method="POST" action="submit.php">
             <div class="input">
-                <input type="text" name="" id="" placeholder="Email/Phone number" class="email">
+                <input type="text" name="detail"  placeholder="Email/Phone number" class="email" style="font-family: 'Hellix';font-style:normal;">
             </div>
-            <input type="submit" value="Join Waitlist" class="submit">
+            <input type="submit" value="Join Waitlist" class="submit" name="submit"style="font-family: 'Hellix';font-style:normal;" >
         </form>
     </div>
     <footer>
