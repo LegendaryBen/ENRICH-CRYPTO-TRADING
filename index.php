@@ -245,61 +245,14 @@
         What our customers are saying...
     </div>
     <div class="section10">
-        <div>
-            <div>
-               <img src="images/benj.jpg" alt="">
-               <span>Chukwuezi Benjamin</span> 
-            </div>
-            <div>
-                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos possimus laborum tenetur
-                fugiat accusantium ad aperiam, vel illum esse. Fuga rerum minima inventore 
-                ipsa numquam facere iure odio voluptatem enim!"
-            </div>
+        
+        <div class="special special1">
+
         </div>
-        <div>
-            <div>
-               <img src="images/benj.jpg" alt="">
-               <span>Chukwuezi Benjamin</span> 
-            </div>
-            <div>
-                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos possimus laborum tenetur
-                fugiat accusantium ad aperiam, vel illum esse. Fuga rerum minima inventore 
-                ipsa numquam facere iure odio voluptatem enim!"
-            </div>
+        <div class="special special2">
+
         </div>
-        <div>
-            <div>
-               <img src="images/benj.jpg" alt="">
-               <span>Chukwuezi Benjamin</span> 
-            </div>
-            <div>
-                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos possimus laborum tenetur
-                fugiat accusantium ad aperiam, vel illum esse. Fuga rerum minima inventore 
-                ipsa numquam facere iure odio voluptatem enim!"
-            </div>
-        </div>
-        <div>
-            <div>
-               <img src="images/benj.jpg" alt="">
-               <span>Chukwuezi Benjamin</span> 
-            </div>
-            <div>
-                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos possimus laborum tenetur
-                fugiat accusantium ad aperiam, vel illum esse. Fuga rerum minima inventore 
-                ipsa numquam facere iure odio voluptatem enim!"
-            </div>
-        </div>
-        <div>
-            <div>
-               <img src="images/benj.jpg" alt="">
-               <span>Chukwuezi Benjamin</span> 
-            </div>
-            <div>
-                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos possimus laborum tenetur
-                fugiat accusantium ad aperiam, vel illum esse. Fuga rerum minima inventore 
-                ipsa numquam facere iure odio voluptatem enim!"
-            </div>
-        </div>
+        
     </div>
     <div class="section9">
         Frequently asked questions...

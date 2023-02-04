@@ -46,6 +46,72 @@ let sec11Children = queryAll(".section11>div");
 let checkTrans = 2.5;
 let section8 = query(".section8");
 
+let reviews = [
+
+    {
+        image:"reviews/allwell.jpg",
+        userNAme:"Allwell Benaiah",
+        review:'"Navigating through the crypto space and understanding the dynamics of this ever-changing system for profit is what i\'ve learnt from Enrich.The are simple and apt."'
+    },
+    {
+        image:"reviews/scar.jpg ",
+        userNAme:"Scarra",
+        review:'"Hi..\n I\'m Scarra \n One of the products of Enrich crypto trading academy.\n Ever since my training at the academy, i must say that i have been able to, a great extent,generate trading trading signals by & for myself;generate some cash to run my daily activities(self sustenance) and also increase my status with a high yield skil.\n My appreciation goes to MR. Enrich and his team."'
+    },
+    {
+        image:"reviews/puka.jpg",
+        userNAme:"Adael Moses Chimnagorom",
+        review:'"I joined Enrich Crypto family \'August 2020\'..\n Since then, I have ran with the focus about the new normal~ CRYPTOCURRENCY.\n Through rigorous studies and research, I now have an edge in life .I fuel my dreams , assist my whole family and a whole lots more . Enrich is a blessing."'
+    },
+    {
+        image:"reviews/abu.jpg",
+        userNAme:"Ikhanoba Abu",
+        review:'"Community is a big part of crypto success.Since i joined enrich i got access to meet great crypto traders, I had access to wide financial tips.\n I am a successful crypto trader also."'
+    }
+];
+
+
+
+function loadReviews(){
+    let div = "";
+    let inner1 = query(".special1");
+    let inner2 = query(".special2");
+
+    for(let rev of reviews){
+        div += `
+    <div>
+        <div>
+           <img src="${rev.image}" alt="">
+           <span>${rev.userNAme}</span> 
+        </div>
+        <div>
+            ${rev.review}
+        </div>
+    </div> 
+        `
+    }
+
+    for(let rev of reviews){
+        div += `
+    <div>
+        <div>
+           <img src="${rev.image}" alt="">
+           <span>${rev.userNAme}</span> 
+        </div>
+        <div>
+            ${rev.review}
+        </div>
+    </div> 
+        `
+    }
+
+    inner1.innerHTML = div;
+    inner2.innerHTML = div;
+}
+
+
+
+
 
 
 
@@ -352,4 +418,5 @@ listener(video,"timeupdate",showLoaded);
 listener(loadContainer,"click",updateLoad)
 activateDrops();
 loadImages();
+loadReviews();
 getPrices();
