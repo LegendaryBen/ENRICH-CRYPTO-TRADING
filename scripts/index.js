@@ -67,6 +67,11 @@ let reviews = [
         image:"reviews/abu.jpg",
         userNAme:"Ikhanoba Abu",
         review:'"Community is a big part of crypto success.Since i joined enrich i got access to meet great crypto traders, I had access to wide financial tips.\n I am a successful crypto trader also."'
+    },
+    {
+        image:"reviews/divine.jpg",
+        userNAme:"Chibuikem Divine",
+        review:'" Enrich gave me my first tour into the crypto space, guiding me and teaching me all I needed to know to learn, It was tough at first but with constant practice,I got the hang of it,\nThank you Enrich❤️"'
     }
 ];
 
@@ -139,13 +144,13 @@ function playVideo(e){
         e.stopPropagation();
         control3 = 1;
         playButton.src = "images/Pause.svg";
-        setTimeout(show,2000);
+        // setTimeout(show,2000);
     }else{
         video.pause();
         e.stopPropagation();
         control3 = 0;
         playButton.src = "images/play.png";
-        setTimeout(show,0);
+        // setTimeout(show,0);
     }
 }
 
@@ -280,7 +285,7 @@ function showDrops(){
         this.removeAttribute("dropped");
         this.setAttribute("dropped","true");
     }else{
-        this.parentNode.style.height ="60px";
+        this.parentNode.style.height ="75px";
         this.children[1].children[0].style.transform = "rotate(0deg)";
         this.removeAttribute("dropped");
         this.setAttribute("dropped","false");
@@ -306,7 +311,7 @@ async function getPrices(){
         <div class="coins">
             NGN ${result.bitcoin.ngn}
         </div>
-        <div class="coins show  ${result.bitcoin.ngn_24h_change < 0 ? 'red' : 'green'}">${result.bitcoin.ngn_24h_change}</div>
+        <div class="coins show  ${result.bitcoin.ngn_24h_change < 0 ? 'red' : 'green'}">${result.bitcoin.ngn_24h_change}%</div>
         <div class="coins show">${result.bitcoin.ngn_market_cap}</div>
     </div>
     <div>
@@ -318,7 +323,7 @@ async function getPrices(){
         <div class="coins">
             NGN ${result.ethereum.ngn}
         </div>
-        <div class="coins show ${result.ethereum.ngn_24h_change < 0 ? 'red' : 'green'}">${result.ethereum.ngn_24h_change}</div>
+        <div class="coins show ${result.ethereum.ngn_24h_change < 0 ? 'red' : 'green'}">${result.ethereum.ngn_24h_change}%</div>
         <div class="coins show">${result.ethereum.ngn_market_cap}</div>
     </div>
     <div>
@@ -330,7 +335,7 @@ async function getPrices(){
         <div class="coins">
             NGN ${result.binancecoin.ngn}
         </div>
-        <div class="coins show ${result.binancecoin.ngn_24h_change < 0 ? 'red' : 'green'}">${result.binancecoin.ngn_24h_change}</div>
+        <div class="coins show ${result.binancecoin.ngn_24h_change < 0 ? 'red' : 'green'}">${result.binancecoin.ngn_24h_change}%</div>
         <div class="coins show">${result.binancecoin.ngn_market_cap}</div>
     </div>
     <div>
@@ -342,7 +347,7 @@ async function getPrices(){
         <div class="coins">
             NGN ${result.solana.ngn}
         </div>
-        <div class="coins show ${result.solana.ngn_24h_change < 0 ? 'red' : 'green'}">${result.solana.ngn_24h_change}</div>
+        <div class="coins show ${result.solana.ngn_24h_change < 0 ? 'red' : 'green'}">${result.solana.ngn_24h_change}%</div>
         <div class="coins show">${result.solana.ngn_market_cap}</div>
     </div>
     <div>
@@ -354,7 +359,7 @@ async function getPrices(){
         <div class="coins">
             NGN ${result.ripple.ngn}
         </div>
-        <div class="coins show ${result.ripple.ngn_24h_change < 0 ? 'red' : 'green'}">${result.ripple.ngn_24h_change}</div>
+        <div class="coins show ${result.ripple.ngn_24h_change < 0 ? 'red' : 'green'}">${result.ripple.ngn_24h_change}%</div>
         <div class="coins show">${result.ripple.ngn_market_cap}</div>
     </div>
     <div style="border-bottom-color:rgba(79, 79, 79,0.3);">
@@ -366,7 +371,7 @@ async function getPrices(){
         <div class="coins">
             NGN ${result.dogecoin.ngn}
         </div>
-        <div class="coins show ${result.dogecoin.ngn_24h_change < 0 ? 'red' : 'green'}">${result.dogecoin.ngn_24h_change}</div>
+        <div class="coins show ${result.dogecoin.ngn_24h_change < 0 ? 'red' : 'green'}">${result.dogecoin.ngn_24h_change}%</div>
         <div class="coins show">${result.dogecoin.ngn_market_cap}</div>
     </div>
 
@@ -377,7 +382,7 @@ async function getPrices(){
 
 function loadImages(){
     let image1 = query(".image1");
-    image1.src ="images/Vector.jpg";
+    image1.src ="reviews/Vector.jpg";
     let image2 = query(".image2");
     image2.src="images/navmsg.png";
     let image3 = query(".image3");
@@ -385,7 +390,7 @@ function loadImages(){
     let image4 = query(".image4");
     image4.src = "images/navphone.png";
     let image5 = query(".image5");
-    image5.src = "images/Vector.jpg";
+    image5.src = "reviews/Vector.jpg";
     let image6 = query(".image6");
     image6.src="images/ham.png";
     let image7 = query(".image7");

@@ -216,6 +216,10 @@ header>div:nth-child(2){
     display:flex;justify-content: center;align-items:center;
 }
 
+.first{
+    display:flex;align-items: center;
+}
+
 .first span{
     font-size:24px;font-weight:500;line-height:29px;font-style: normal;
 }
@@ -225,7 +229,7 @@ header>div:nth-child(2){
 }
 
 .first img{
-    height:20px;width:20px;
+    height:40px;width:40px;border-radius:50%;
 }
 
 .second a{
@@ -265,8 +269,7 @@ header>div:nth-child(2){
 }
 
 .section3{
-    margin-top:70px;font-family: 'Hellix';font-style: normal;width:100%;height:400px;background-color:white;
-    overflow: hidden;
+    margin-top:70px;font-family: 'Hellix';font-style: normal;width:100%;height:300px;background-color:white;
 }
 
 .section3>div:first-child{
@@ -281,7 +284,7 @@ header>div:nth-child(2){
 }
 
 .section4{
-    width:100%;height:900px;overflow:hidden;font-family: 'Hellix';font-style: normal;
+    width:100%;height:900px;overflow:hidden;font-family: 'Hellix';font-style: normal;margin-top:100px;
 }
 
 .section4>div:first-child{
@@ -369,6 +372,15 @@ footer>div:last-child *{
 }
 
 
+footer img{
+    height:40px;width:40px;object-fit: contain;border-radius:50%;
+}
+
+.place{
+    display:flex;align-items: center;
+}
+
+
 .hammenu{
     width:100%;height:100vh;background-color: rgba(0, 0, 0,0.3);position:fixed;left:0;right:0;top:-150%;z-index:100;
     backdrop-filter:blur(0px);transition:1s;overflow:hidden;
@@ -395,7 +407,7 @@ footer>div:last-child *{
 }
 
 .head>div>img{
-    height:25px;width:25px;
+    height:40px;width:40px;border-radius:50%;
 }
 
 .cancel span{
@@ -512,7 +524,7 @@ footer>div:last-child *{
     }
 
     .section3{
-        height:530px;margin-top:30px;
+        height:510px;margin-top:30px;
     }
 
     .section3>div:first-child{
@@ -660,7 +672,7 @@ footer>div:last-child *{
 
 @media only screen and (max-width:376px){
     .section3{
-        height:680px;margin-top:30px;
+        height:730px;margin-top:30px;
     }
 
     .section4>div:first-child{
@@ -672,7 +684,7 @@ footer>div:last-child *{
 
 @media only screen and (max-width:320px){
     .section3{
-        height:680px;margin-top:30px;
+        height:900px;margin-top:30px;
     }
 
     .section1{

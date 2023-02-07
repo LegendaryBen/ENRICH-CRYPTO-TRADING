@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="images/Vector.jpg">
+    <link rel="icon" type="image/x-icon" href="reviews/Vector.jpg">
     <link rel="stylesheet" href="css/academy.css">
     <title>ENRICH CRYPTO TRADING</title>
 </head>
@@ -106,9 +106,9 @@
                 <a href="tel:07061083954">Call Phone</a>
             </div>
             <div class="slast">
-                <span class="place"><img src="images/foot.svg">enrich</span>
+                <span class="place"><img src="reviews/Vector.jpg">enrich</span>
                 <a>Obinze, Futo junction Owerri, Imo state</a>
-                <a>GRA flyover,033 plaza Ebonyi, Nigeria</a>
+                <a> N0 8 Omari Omaka street,beside Maris and lois school,Ogbaga road abakiliki </a>
                 <a>Privacy policy</a>
                 <a>Terms and conditions</a>
             </div>

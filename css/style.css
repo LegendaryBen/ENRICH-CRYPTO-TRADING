@@ -215,12 +215,16 @@ header>div:nth-child(2){
     display:flex;justify-content: center;align-items:center;
 }
 
+.first{
+    display: flex;align-items: center;
+}
+
 .first span{
     font-size:24px;font-weight:500;line-height:29px;font-style: normal;
 }
 
 .first img{
-    height:20px;width:20px;
+    height:40px;width:40px;border-radius:50%;
 }
 
 .second a{
@@ -487,13 +491,13 @@ header>div:nth-child(2){
 
 
 .section10{
-    width:100%;height: 299.74px;background-color:#FFF9F0;display:flex;align-items:center;
+    width:100%;height:299.74px;background-color:#FFF9F0;display:flex;align-items:center;
     overflow-x:hidden;font-family: 'Hellix';font-style: normal;transition:3s;
 }
 
 .section10>div{
-    width:8000px;height: 299.74px;padding:10px 0 10px 0;background-color:#FFF9F0;display:flex;align-items:center;
-    font-family: 'Hellix';font-style: normal;transition:3s; animation:shift 80s linear infinite;position: relative;
+    height: 299.74px;padding:10px 0 10px 0;background-color:#FFF9F0;display:flex;align-items:center;
+    font-family: 'Hellix';font-style: normal;transition:3s; animation:shift 150s linear infinite;position: relative;
 }
 
 .special>div{
@@ -521,7 +525,7 @@ header>div:nth-child(2){
 }
 
 .section11>div{
-    border: 1px solid transparent;border-bottom-color:#FEA62C;width:100%;height:60px;overflow:hidden;
+    border: 1px solid transparent;border-bottom-color:#FEA62C;width:100%;height:75px;overflow:hidden;
     margin-bottom:40px;transform:translateY(700px);
 }
 
@@ -541,7 +545,7 @@ header>div:nth-child(2){
 
 .questions{
     display:flex;justify-content:flex-start;font-weight: 400;font-size: 18px;line-height: 22px;color: #4F4F4F;
-    min-height:70px;padding-bottom:40px;margin-top:40px;
+    min-height:70px;padding-bottom:40px;margin-top:20px;padding-top:30px;
 }
 
 footer{
@@ -601,6 +605,10 @@ footer>div:last-child *{
     margin-right: 5px;
 }
 
+footer img{
+    width:40px;height:40px;object-fit: contain;border-radius:50%;
+}
+
 .hover:hover{
     background-color: #FEA62C;transition:300ms;
 }
@@ -636,7 +644,7 @@ footer>div:last-child *{
 }
 
 .head>div>img{
-    height:25px;width:25px;
+    height:40px;width:40px;border-radius:50%;
 }
 
 

@@ -51,7 +51,7 @@ function goUp2(){
 
 function loadImages(){
     let image1 = query(".image1");
-    image1.src="images/Vector.jpg";
+    image1.src="reviews/Vector.jpg";
     let image2 = query(".image2");
     image2.src="images/navmsg.png";
     let image3 = query(".image3");
@@ -59,7 +59,7 @@ function loadImages(){
     let image4 = query(".image4");
     image4.src="images/navphone.png";
     let image5 = query(".image5");
-    image5.src="images/log.svg";
+    image5.src="reviews/Vector.jpg";
     let video = query(".video1");
     video.src="video/background.mp4";
     video.autoplay = true;

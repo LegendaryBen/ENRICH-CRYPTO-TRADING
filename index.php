@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="images/Vector.jpg">
+    <link rel="icon" type="image/x-icon" href="reviews/Vector.jpg">
     <link rel="stylesheet" href="css/style.css">
     <title>ENRICH CRYPTO TRADING</title>
 </head>
@@ -260,66 +260,46 @@
     <div class="section11">
         <div>
             <div class="header drop"  dropped="false">
-                <div class="topic">What are NFTs</div>
+                <div class="topic">Transaction duration?</div>
                 <div>
                     <img src="images/Vector.png" alt="">
                 </div>
             </div>
             <div class="questions">
-                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos possimus laborum tenetur
-                fugiat accusantium ad aperiam, vel illum esse. Fuga rerum minima inventore 
-                ipsa numquam facere iure odio voluptatem enim!"
-                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos possimus laborum tenetur
-                fugiat accusantium ad aperiam, vel illum esse. Fuga rerum minima inventore 
-                ipsa numquam facere iure odio voluptatem enim!"
+                Usually it takes 5 - 15 minutes on average for us to process to your transaction. 
             </div>
         </div>
         <div>
             <div class="header drop" dropped="false">
-                <div class="topic">What are NFTs</div>
+                <div class="topic">How long does it take to receive my payment?</div>
                 <div>
                     <img src="images/Vector.png" alt="">
                 </div>
             </div>
             <div class="questions">
-                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos possimus laborum tenetur
-                fugiat accusantium ad aperiam, vel illum esse. Fuga rerum minima inventore 
-                ipsa numquam facere iure odio voluptatem enim!"
-                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos possimus laborum tenetur
-                fugiat accusantium ad aperiam, vel illum esse. Fuga rerum minima inventore 
-                ipsa numquam facere iure odio voluptatem enim!"
+                You will receive your payment immediately as soon as your transaction is confirmed.
             </div>
         </div>
         <div>
             <div class="header drop"  dropped="false">
-                <div class="topic">Where can i view my nfts</div>
+                <div class="topic"> What cryptocurrencies do we trade?</div>
                 <div>
                     <img src="images/Vector.png" alt="">
                 </div>
             </div>
             <div class="questions">
-                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos possimus laborum tenetur
-                fugiat accusantium ad aperiam, vel illum esse. Fuga rerum minima inventore 
-                ipsa numquam facere iure odio voluptatem enim!"
-                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos possimus laborum tenetur
-                fugiat accusantium ad aperiam, vel illum esse. Fuga rerum minima inventore 
-                ipsa numquam facere iure odio voluptatem enim!"
+                We trade all cryptocurrencies & tokens i.e Bitcoin(BTC), Litecoin(LTC), Ripple(XRP), Doge(DOGE), Solana(SOL), ShubaInu(SHIB), Wikicat(WKC) etc. 
             </div>
         </div>
         <div>
             <div class="header drop" dropped="false" >
-                <div class="topic">Where can i view my nfts</div>
+                <div class="topic"> What giftcards do we trade?</div>
                 <div>
                     <img src="images/Vector.png" alt="" >
                 </div>
             </div>
             <div class="questions">
-                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos possimus laborum tenetur
-                fugiat accusantium ad aperiam, vel illum esse. Fuga rerum minima inventore 
-                ipsa numquam facere iure odio voluptatem enim!"
-                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos possimus laborum tenetur
-                fugiat accusantium ad aperiam, vel illum esse. Fuga rerum minima inventore 
-                ipsa numquam facere iure odio voluptatem enim!"
+                We trade Vanilla, Steam, American Express (AMEX), Google play, Amazon, Visa, Apple Itunes, etc
             </div>
         </div>
     </div>
@@ -344,9 +324,9 @@
                 <a href="tel:07061083954">Call Phone</a>
             </div>
             <div class="slast">
-                <span class="place"><img src="images/foot.svg">enrich</span>
+                <span class="place"><img src="reviews/Vector.jpg">enrich</span>
                 <a>Obinze, Futo junction Owerri, Imo state</a>
-                <a>GRA flyover,033 plaza Ebonyi, Nigeria</a>
+                <a>N0 8 Omari Omaka street,beside Maris and lois school,Ogbaga road abakiliki</a>
                 <a>Privacy policy</a>
                 <a>Terms and conditions</a>
             </div>

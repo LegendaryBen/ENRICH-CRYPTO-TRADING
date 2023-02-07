@@ -91,6 +91,13 @@ function goUp2(){
 
 }
 
+function loadImages(){
+    let img1 = query(".img1");
+    img1.src = "team/richard.jpg";
+    let img2 = query(".img2");
+    img2.src = "team/allwell.jpg"
+}
+
 
 
 
@@ -100,6 +107,7 @@ listener(ham2,"click",dropDown1);
 listener(hover,"click",dropDown1);
 listener(cancelHam1,"click",goUp);
 listener(ham3,"click",goUp2);
+loadImages();
 
 
 

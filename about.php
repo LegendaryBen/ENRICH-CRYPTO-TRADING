@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="images/Vector.jpg">
+    <link rel="icon" type="image/x-icon" href="reviews/Vector.jpg">
     <link rel="stylesheet" href="css/about.css">
     <title>ENRICH CRYPTO TRADING</title>
 </head>
@@ -13,7 +13,7 @@
         <div>
             <div class="head">
                 <div>
-                    <img alt="" src="images/Vector.jpg" >
+                    <img alt="" src="reviews/Vector.jpg" >
                     <span>enrich</span>
                 </div>
                 <div class="cancel"><span>&#10005;</span></div>
@@ -47,7 +47,7 @@
     </div>
     <header>
         <div class="first">
-           <img alt="enrich" src="images/Vector.jpg">
+           <img alt="enrich" src="reviews/Vector.jpg">
            <span><a href="index.php">enrich</a></span>
         </div>
         <div class="second">
@@ -72,26 +72,21 @@
         <img  alt="" src="images/bit-image.png">
     </div>
     <div class="section3">
-        <div>About Us</div>
+        <div> About Enrich Crypto Trading Co.</div>
         <div> 
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Provident, totam, commodi ipsa, asperiores itaque harum consequatur quaerat magni amet tempore quae inventore odit nam est hic accusamus sint repellat repudiandaeLorem ipsum dolor sit amet consectetur adipisicing elit. Expedita adipisci dolor
-            id aliquam amet unde cumque est placeat et eaque cupiditate ut, molestias quisquanesciunt a aliquid voluptate impedit facere?
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus, quasi aut ullam dolore illum, 
-            ratione repellat doloremque harum officia quos quibusdam aperiam optio alias impedit facere corporis velit dolor esse.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, iure! Id aliquam officia architecto illo quis excepturi, 
-            laborum ratione temporibus aperiam ducimus consequuntur deserunt, animi earum, optio dolore! Necessitatibus, harum!
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam assumenda fuga accusantium exercitationem culpa. Eius perferendis, 
-            repellat et magnam doloribus aliquam autem reiciendis dolorum? Aliquid saepe dolore distinctio eius nulla.
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus dolore, esse ducimus 
-            aspernatur qui fuga ab alias maxime adipisci cum minus? Asperiores blanditiis rerum illo perferendis doloremque eos eius earum.
+            Welcome to our team of cryptocurrency analysts! We are a group of highly skilled and knowledgeable professionals dedicated to providing our clients with in-depth insights into the cryptocurrency market.
+            Our team has a diverse background with experience in traditional finance, economics, data analysis, and technology. We use a combination of cutting-edge tools and methodologies, coupled with our expertise and experience, to deliver the most accurate and actionable market analysis.
+            At our core, we believe that transparency and accountability are the key to success in the cryptocurrency market. That is why we provide our clients with access to our research methodology and analytical tools, along with regular updates on market trends and developments.
+            Our team is constantly monitoring the market and conducting in-depth research to stay ahead of the curve. We understand that the cryptocurrency market is fast-paced and ever-changing, and we are committed to providing our clients with the most up-to-date information and analysis.
+            Whether you are a seasoned trader or just starting out, we are here to help you achieve your investment goals. Our team is always available to answer your questions and provide guidance and support.
+            If you are looking for a reliable and trustworthy partner in the world of cryptocurrency, look no further than our team of expert analysts. Contact us today to learn more about our services and how we can help you achieve success in the exciting and dynamic world of cryptocurrency.
         </div>
     </div>
     <div class="section4">
         <div>Meet the team</div>
         <div class="pictures">
             <div class="pic">
-                <img src="images/benj.jpg" alt="">
+                <img alt="" class="img1">
                 <div class="linear"></div>
                 <div>
                     <span>Richard Chukwuezi</span>
@@ -99,10 +94,10 @@
                 </div>
             </div>
             <div class="pic">
-                <img src="images/benj.jpg" alt="">
+                <img src alt="" class="img2">
                 <div class="linear"></div>
                 <div>
-                    <span>Richard Chukwuezi</span>
+                    <span> Allwell Benaiah</span>
                     <span>CEO Enrich Trading</span>
                 </div>
             </div>
@@ -163,9 +158,9 @@
                 <a href="tel:07061083954">Call Phone</a>
             </div>
             <div class="slast">
-                <span class="place"><img src="images/foot.svg">enrich</span>
+                <span class="place"><img src="reviews/Vector.jpg">enrich</span>
                 <a>Obinze, Futo junction Owerri, Imo state</a>
-                <a>GRA flyover,033 plaza Ebonyi, Nigeria</a>
+                <a> N0 8 Omari Omaka street,beside Maris and lois school,Ogbaga road abakiliki</a>
                 <a>Privacy policy</a>
                 <a>Terms and conditions</a>
             </div>
