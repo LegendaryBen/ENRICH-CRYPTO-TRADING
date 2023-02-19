@@ -98,41 +98,41 @@
                 <div class="linear"></div>
                 <div>
                     <span> Allwell Benaiah</span>
-                    <span>CEO Enrich Trading</span>
+                    <span>Technical Analyst</span>
                 </div>
             </div>
             <div class="pic">
-                <img src="images/benj.jpg" alt="">
+                <img src alt="" class="img3">
                 <div class="linear"></div>
                 <div>
-                    <span>Richard Chukwuezi</span>
-                    <span>CEO Enrich Trading</span>
+                    <span>Benjamin Chimaobi</span>
+                    <span>Dev</span>
                 </div>
             </div>
         </div>
         <div class="pictures">
             <div class="pic">
-                <img src="images/benj.jpg" alt="">
+                <img src alt="" class="img4"style="object-fit: contain;" >
                 <div class="linear"></div>
                 <div>
-                    <span>Richard Chukwuezi</span>
-                    <span>CEO Enrich Trading</span>
+                    <span>Flexzon</span>
+                    <span>Technical Analyst</span>
                 </div>
             </div>
             <div class="pic">
-                <img src="images/benj.jpg" alt="">
+                <img src alt="" class="img5" style="object-fit: contain;">
                 <div class="linear"></div>
                 <div>
-                    <span>Richard Chukwuezi</span>
-                    <span>CEO Enrich Trading</span>
+                    <span>Solomon Favour</span>
+                    <span>Technical Analyst and UI/UX designer</span>
                 </div>
             </div>
             <div class="pic">
-                <img src="images/benj.jpg" alt="">
+                <img src  alt="" class="img6" style="object-fit: contain;" >
                 <div class="linear"></div>
                 <div>
-                    <span>Richard Chukwuezi</span>
-                    <span>CEO Enrich Trading</span>
+                    <span>Adael Moses Chimnagorom</span>
+                    <span>Technical Analyst</span>
                 </div>
             </div>
         </div>

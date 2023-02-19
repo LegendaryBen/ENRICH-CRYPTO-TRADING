@@ -95,7 +95,15 @@ function loadImages(){
     let img1 = query(".img1");
     img1.src = "team/richard.jpg";
     let img2 = query(".img2");
-    img2.src = "team/allwell.jpg"
+    img2.src = "team/allwell.jpg";
+    let img3 = query(".img3");
+    img3.src = "team/benj.jpg";
+    let img4 = query(".img4");
+    img4.src = "team/flexzon.jpg";
+    let img5 = query(".img5");
+    img5.src = "team/IMG-20230102-WA0066.jpg";
+    let img6 = query(".img6");
+    img6.src = "team/puka.jpg";
 }
 
 
